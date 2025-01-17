@@ -1,0 +1,234 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+body{
+  margin: 0;
+  font-family: "Open Sans", serif;
+  box-sizing: border-box;
+}
+.header{
+  background-image: url('https://thumb.photo-ac.com/a8/a88535daec7455ffb0d4b49604c3c97f_t.jpeg'); /* Replace with your actual image URL */
+  background-size: cover;
+  background-position: center;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  padding: 20px;
+  text-align: center;
+  position: relative;
+}
+.header-top{
+display: flex;
+justify-content: space-between;
+align-items: center;
+padding: 10px;
+}
+.logo{
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  color: #2a952b;
+}
+.logo img{
+  width: 75px;
+  border-radius: 50%;
+}
+.logo h1{
+  margin: 0;
+}
+.logo{
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  color: #2a952b;
+}
+.logo img{
+  width: 75px;
+  border-radius: 50%;
+}
+.navbar{
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+.navbar a{
+  text-decoration: none;
+  margin: 0 10px;
+  color: white;
+  font-weight: bold;
+  color: #333;
+}
+.navbar a:hover {
+  color: #f96161;
+}
+.headercon{
+text-align: center;
+margin-top: 20px;
+width: 380px;
+padding: 115px;
+padding-left: 150px;
+font-style: Open-Sans;
+}
+.headercon p{
+  font-size: 1.2em;
+}
+.headercon h2{
+  font-size: 2.5em;
+  margin: 10px 0;
+}
+.headercon button{
+  background-color: #f96161;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  font-size: 1em;
+  cursor: pointer;
+  border-radius: 20px;
+}
+button:hover {
+  background-color: #d83254;
+  transform: scale(1.08); 
+}
+
+.items{
+  text-align: center;
+  font-style: Open-Sans;
+}
+.items h2{
+  font-size: 2.5em;
+}
+
+.product-grid{
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+  justify-items: center;
+  padding: 20px;
+  margin-left: 120px;
+  margin-right: 120px;
+}
+.image{
+  position: relative;
+  display: inline-block;
+}
+.sale{
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  background-color: rgb(255, 255, 255);
+  color: black;
+  padding: 5px 10px;
+  font-size: 0.8rem;
+  font-weight: bold;
+  border-radius: 15px;
+  z-index: 1;
+}
+.product-card {
+  padding: 10px;
+  text-align: center;
+  border-radius: 5px;
+  width: 160px;
+}
+.product-card img{
+  width: 200px;
+  height: 200px;
+  border-radius: 10px;
+}
+.stars{
+  color: gold;
+  font-size: 1rem;
+  border-color: #333;
+  margin: 5px 0;
+}
+.original-price{
+  text-decoration: line-through;
+  color: #888;
+  margin-right: 10px;
+}
+.discounted-price{
+  font-weight: bold;
+}
+.product{
+  background: #fff;
+  border: 1px solid #ddd;
+  padding: 15px;
+  width: 200px;
+  text-align: center;
+  border-radius: 8px;
+}
+.product h3{
+  margin: 10px 0;
+  font-size: 18px;
+}
+.product-card h3, .product-card p{
+  font-weight: bold;
+  font-size: 0.95rem;
+}
+#cart-items{
+  margin-top: 20px;
+}
+.cart-item{
+  margin: 10px 0;
+}
+
+footer{
+  background-color: #f9f9f9;
+  padding: 40px 20px;
+  border-top: 1px solid #ddd;
+  font-size: 14px;
+  color: #555;
+}
+footer .footer-container{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+.footer-logo{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-right: 20px;
+}
+.footer-logo img{
+  width: 100px;
+  border-radius: 50%;
+}
+.footer-logo span{
+  font-size: 21px;
+  font-weight: bold;
+  color: #3bb73e;
+}
+footer .footer-column{
+  flex: 1;
+  margin: 0 10px;
+  min-width: 200px;
+}
+footer .footer-column h4{
+  font-size: 16px;
+  margin-bottom: 15px;
+  color: #333;
+}
+footer .footer-column ul{
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+footer .footer-column ul li{
+  margin-bottom: 8px;
+}
+footer .footer-column ul li a{
+  text-decoration: none;
+  color: inherit;
+  transition: color 0.3s ease;
+}
+footer .footer-column ul li a:hover{
+  color: #0b910d;
+}
+.footer-bottom{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 14px;
+  color: #888;
+  padding-left: 60px;
+  padding-right: 60px;
+}
